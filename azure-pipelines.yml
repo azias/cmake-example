@@ -1,7 +1,7 @@
 pool:
   vmImage: 'win1803'
 
-container: azias/buildtools2017:latest
+container: azias.azurecr.io/hello-world:latest
 
 steps:
 - script: set
