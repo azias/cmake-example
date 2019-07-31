@@ -1,9 +1,7 @@
 pool:
   vmImage: 'win1803'
 
-container:
-  image: azias.azurecr.io/servercore:1803
-  endpoint: azias_acr
+container: azias/buildtools2017native:latest
 
 steps:
-- script: set
+- script: echo blablabla
