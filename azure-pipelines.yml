@@ -1,0 +1,5 @@
+steps:
+- task: CMake@1
+  displayName: 'CMake ..'
+  inputs:
+    cmakeArgs: ..
