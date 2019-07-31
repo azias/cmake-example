@@ -1,7 +1,7 @@
 pool:
   vmImage: 'win1903'
 
-container: mcr.microsoft.com/windows/servercore:1903
+container: azias/servercore:1803
 
 steps:
 - script: set
