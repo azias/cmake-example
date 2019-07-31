@@ -1,9 +1,7 @@
 pool:
-  vmImage: 'win1803'
+  vmImage: 'win1903'
 
-container:
-  image: azias.azurecr.io/hello-world:latest
-  endpoint: azias_acr
+container: mcr.microsoft.com/windows/servercore:1903
 
 steps:
 - script: set
