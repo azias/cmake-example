@@ -2,7 +2,7 @@ pool:
   vmImage: 'win1803'
 
 container:
-  image: azias.azurecr.io/buildtools2017native:latest
+  image: azias.azurecr.io/buildtools2017native1803:latest
   endpoint: azias_acr
 
 steps:
